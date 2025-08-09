@@ -1625,7 +1625,8 @@ portfolio
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(100% - 60px);
+  /* width: calc(100% - 60px); */
+  width: calc(100% - 47px);
   height: calc(100% - 60px);
   display: flex;
   flex-direction: column;
