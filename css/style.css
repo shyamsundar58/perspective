@@ -1362,6 +1362,13 @@ illustrations
 icons
 
 ------------------------------------------- */
+.mil-icon img {
+    width: 24px;
+    height: 24px;
+     transform: scale(2.0);
+    object-fit: contain; /* Keeps aspect ratio without distortion */
+}
+
 .mil-icon {
   display: inline-flex;
   padding: 15px;
